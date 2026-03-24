@@ -1,1 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Izaz Ahmed Niaz — Freelance Marketing & YouTube Growth</title>
+  <meta name="description" content="Izaz Ahmed Niaz — Freelance marketing, content strategy and YouTube growth consultant." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">Izaz<span class="accent">.</span></div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#work">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="btn-ghost">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <section id="hero" class="hero">
+    <picture class="hero-media">
+      <source srcset="assets/hero-1200.webp 1200w, assets/hero-2000.webp 2000w" type="image/webp">
+      <img src="assets/hero-1200.jpg" alt="Izaz Ahmed Niaz — freelance marketing & YouTube growth specialist" class="hero-image" loading="eager">
+    </picture>
+
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <h1 class="name">I'M IZAZ AHMED</h1>
+        <p class="role">Freelance Marketing • YouTube Growth • Content Strategy</p>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get a free 15‑min audit</a>
+        <a href="#work" class="btn-outline">View portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container main-sections">
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I am <strong>Izaz Ahmed Niaz</strong>, a freelance marketing and content specialist focusing on YouTube growth, content strategy, and campaign execution.</p>
+    </section>
+
+    <section id="work" class="section">
+      <h2>Selected Work</h2>
+      <div class="projects">
+        <article class="project-card">
+          <img src="assets/project-1.jpg" alt="Project 1" />
+          <div>
+            <h3>Viral Video Campaign — Retail Brand</h3>
+            <p>Designed short video series and metadata optimizations that increased views by 150% in 3 months.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-2.jpg" alt="Project 2" />
+          <div>
+            <h3>SEO Content & Newsletter</h3>
+            <p>SEO-focused blog and email funnels that doubled organic traffic.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-3.jpg" alt="Project 3" />
+          <div>
+            <h3>YouTube Channel Audit</h3>
+            <p>Channel audit with thumbnail & metadata recommendations to improve CTR and watch time.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <p>Email: <a id="contact-email" href="mailto:whosizaz@gmail.com">whosizaz@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Izaz Ahmed Niaz</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var el = document.getElementById('year');
+      if (el) el.textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
