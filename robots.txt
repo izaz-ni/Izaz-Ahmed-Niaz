@@ -1,1 +1,5 @@
 
+User-agent: *
+Allow: /
+
+Sitemap: https://izaz-ni.github.io/Izaz-Ahmed-Niaz/sitemap.xml
